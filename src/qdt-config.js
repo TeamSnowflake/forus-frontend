@@ -23,6 +23,7 @@ core.addPlatform(require('./platforms/Webshops/WebshopZuidhornPlatform'));
 core.addPlatform(require('./platforms/Webshops/WebshopNijmegenPlatform'));
 core.addPlatform(require('./platforms/Webshops/WebshopForusPlatform'));
 core.addPlatform(require('./platforms/Webshops/WebshopWesterkwartierPlatform'));
+core.addPlatform(require('./platforms/Webshops/WebshopVeendamPlatform'));
 
 // Register meapp landings
 core.addPlatform(require('./platforms/Landings/LandingMeAppGeneralPlatform'));
