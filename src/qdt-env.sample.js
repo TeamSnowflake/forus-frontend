@@ -159,6 +159,17 @@ module.exports = (core) => {
         return platform;
     });
 
+    core.editPlatform('webshop_veendam', (platform) => {
+        platform.setEnvData({
+            api_url: api_url,
+            client_key: 'veendam',
+            client_type: 'webshop',
+        });
+
+        return platform;
+    });
+
+
     // Config meapp landings
     core.editPlatform('landing_meapp_general', (platform) => {
         platform.setEnvData({
