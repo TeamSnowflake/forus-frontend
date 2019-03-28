@@ -48,6 +48,7 @@ module.exports = {
             title_general: "Een profiel voor het Forus Platform",
             title_nijmegen: "Een profiel voor de Meedoen-regeling",
             title_zuidhorn: "Een profiel voor het Kindpakket",
+			title_emmen: "Een profiel voor de participatiewebshop",
             title_westerkwartier: "Een profiel voor het Kindpakket",
             title_forus: "Een profiel voor het Kerstpakket",
             description: "Een profiel om in te loggen, waarmee u vouchers kan beheren en veilig kan betalen",

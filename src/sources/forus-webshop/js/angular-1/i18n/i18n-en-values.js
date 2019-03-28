@@ -26,4 +26,11 @@ module.exports = {
         start_date: "1 November 2018",
         amount: "300",
     }
+	emmen: {
+        name: "Emmen",
+        fund: "Participatieregeling",
+        voucher: "Participatie-voucher",
+        start_date: "1 November 2018",
+        amount: "300",
+    }
 };

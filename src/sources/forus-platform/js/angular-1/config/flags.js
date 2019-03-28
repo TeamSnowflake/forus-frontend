@@ -11,4 +11,8 @@ module.exports = {
         logoExtension: '.svg',
         maxProductCount: 2
     },
+	emmen: {
+        logoExtension: '.png',
+        maxProductCount: 20
+    },
 };
