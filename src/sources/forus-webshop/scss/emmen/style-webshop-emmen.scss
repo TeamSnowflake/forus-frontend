@@ -46,11 +46,11 @@ body {
 
 .button {
     &.button-default {
-        color: $bc;
-        border-color: #d2e6ff;
+        color: white;
+        border-color: white;
 
         .mdi {
-            color: $bc;
+            color: white;
         }
 
         &:hover {
@@ -134,6 +134,11 @@ body {
     }
 
     &.block-navbar {
+		border: none;
+		border-radius: 0px;
+		width: 100%;
+		
+		
         .navbar-logo {
             img {
                 margin: -5px 0;
