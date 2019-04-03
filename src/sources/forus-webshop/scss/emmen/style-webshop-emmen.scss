@@ -139,6 +139,8 @@ body {
             }
         }
 
+.navbar-inner{
+	background-color: none;
         .navbar-list {
             .navbar-item-wrapper {
                 .navbar-item {
@@ -156,6 +158,7 @@ body {
                 }
             }
         }
+	}
 
         .block-auth {
             .auth-in {
@@ -238,6 +241,7 @@ body {
     }
 
     &.block-copyrights {
+		background-color: white;
         .links {
             a {
                 color: $bc;
