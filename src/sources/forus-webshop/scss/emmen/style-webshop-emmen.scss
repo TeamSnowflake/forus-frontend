@@ -100,6 +100,7 @@ body {
         }
 
         &.section-header {
+		padding: 0 0 40px;
             .header-content {
                 .header-title,
                 .header-description {
@@ -140,7 +141,7 @@ body {
         }
 
 .navbar-inner{
-	background-color: none;
+	background-color: #D82C7C;
         .navbar-list {
             .navbar-item-wrapper {
                 .navbar-item {
