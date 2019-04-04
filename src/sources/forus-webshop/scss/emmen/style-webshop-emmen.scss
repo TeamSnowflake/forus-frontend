@@ -46,16 +46,16 @@ body {
 
 .button {
     &.button-default {
-        color: white;
+        color: #D82C7C;
         border-color: white;
+		background-color: white;
 
         .mdi {
-            color: white;
+            color: #D82C7C;
         }
 
         &:hover {
-            background: $bc;
-            border-color: $bc;
+            text-decoration: underline;
         }
     }
 
@@ -137,6 +137,8 @@ body {
 		border: none;
 		border-radius: 0px;
 		width: 100%;
+		background-color: #D82C7C;
+		border-top: 10px solid #b02163;
 		
 		
         .navbar-logo {
@@ -146,7 +148,8 @@ body {
         }
 
 .navbar-inner{
-	background-color: #D82C7C;
+	background-color: transparent;
+	width: 1200px;
         .navbar-list {
             .navbar-item-wrapper {
                 .navbar-item {
