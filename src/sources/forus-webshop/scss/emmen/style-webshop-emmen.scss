@@ -56,6 +56,7 @@ body {
 
         &:hover {
             text-decoration: underline;
+			border-color: white;
         }
     }
 
@@ -142,15 +143,17 @@ body {
 		
 		
         .navbar-logo {
+		padding: 10px 0;
             img {
                 margin: -5px 0;
+				height: 48px;
             }
         }
 
 .navbar-inner{
 	background-color: transparent;
 	width: 1200px;
-	box-shadow: 0px;
+	box-shadow: none;
 	border-radius: 0px;
         .navbar-list {
             .navbar-item-wrapper {
@@ -172,6 +175,7 @@ body {
 	}
 
         .block-auth {
+		padding: 10px 20px;
             .auth-in {
                 .auth-user {
                     .auth-user-email {
