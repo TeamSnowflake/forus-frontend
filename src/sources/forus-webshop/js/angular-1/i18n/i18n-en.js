@@ -372,7 +372,7 @@ module.exports = {
                 stepfive: "Stap #5",
                 five: "Ga naar de webshop om te zien waar de voucher te besteden is of om een aanbieding te kopen. Laat de bijbehorende QR-Code zien om je aanbieding in ontvangst te nemen.",
             },
-			zuidhorn: {
+			emmen: {
                 title: "Hoe het werkt",
                 stepone: "Stap #1",
                 one: "Je hebt een brief  ontvangen van de gemeente. In de brief staat een activatiecode. Gebruik deze bij stap 2.",
@@ -621,6 +621,7 @@ module.exports = {
             title_general: "Een profiel voor het Forus Platform",
             title_nijmegen: "Een profiel voor de Meedoen-regeling",
             title_zuidhorn: "Een profiel voor het Kindpakket",
+			title_emmen: "Een profiel voor de participatiewebshop",
             title_westerkwartier: "Een profiel voor het Kindpakket",
             title_forus: "Een profiel voor het Kerstpakket",
             description: "Een profiel om in te loggen, waarmee u vouchers kan beheren en veilig kan betalen",
@@ -798,6 +799,9 @@ module.exports = {
                 mail: "<strong>Let op</strong>: gebruik uw eigen e-mailadres.<br /> U kunt voor de Meedoen-regeling per jaar maximaal één activatiecode per e-mailadres gebruiken.",
             },
             zuidhorn: {
+                mail: "<strong>Let op</strong>: gebruik uw eigen e-mailadres.<br /> U kunt voor het Kindpakket per jaar maximaal één activatiecode per e-mailadres gebruiken.",
+            },
+			emmen: {
                 mail: "<strong>Let op</strong>: gebruik uw eigen e-mailadres.<br /> U kunt voor het Kindpakket per jaar maximaal één activatiecode per e-mailadres gebruiken.",
             },
             timelimit: "U wordt automatisch uitgelogd na 15 minuten inactiviteit.",
