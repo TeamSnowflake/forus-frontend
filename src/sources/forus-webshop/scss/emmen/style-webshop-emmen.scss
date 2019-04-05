@@ -91,6 +91,38 @@ body {
     }
 }
 
+.header-splash {
+    height: 20.5vw;
+    overflow:auto;
+    display: table;
+    .splash,
+    .splash.splash-d {
+        background-image: url(../img/splash-top-b.png);
+        display: table-row;
+        background-size: cover;
+        height: 26.5vw;
+        background-position: 50% 50%;
+        &.splash-d{
+            background-position: 50% 65%;
+            height: 20.5vw;
+        }
+
+    
+        &:before {
+            position: absolute;
+            right:0;
+            bottom: 0;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 0 12vmax 12vmax;
+            border-color: transparent transparent #acb862 transparent;
+            -webkit-transform:rotate(360deg);
+            content: " ";
+        }
+    }
+}
+
 .section {
     &.section-header {
         .header-sprite {
@@ -110,11 +142,6 @@ body {
             }
         }
 
-        .header-splash {
-            .splash {
-                height: 700px;
-            }
-        }
     }
     &.section-footer {
         background-color: $fc;
