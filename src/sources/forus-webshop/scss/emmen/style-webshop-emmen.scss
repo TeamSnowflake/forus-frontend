@@ -144,12 +144,10 @@ body {
 .section {
 
  &.section-header {
-        padding: 1vw 0 1vw;
+        padding: 0 0 0;
         position: relative;
         display: block;
         .header-content {
-            padding-top: 3.4vw;
-            padding-bottom: 5.1vw;
             padding-left: 1vw;
             color: #fff;
 
