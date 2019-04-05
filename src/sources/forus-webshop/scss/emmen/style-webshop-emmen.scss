@@ -264,9 +264,10 @@ body {
 
     &.block-copyrights {
 		background-color: white;
+		padding: 15px 0;
         .links {
             a {
-                color: $bc;
+                color: #000000;
 
                 &:hover {
                     color: $bc;
