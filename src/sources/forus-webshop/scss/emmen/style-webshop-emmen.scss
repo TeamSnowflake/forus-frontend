@@ -173,17 +173,6 @@ body {
         }
     }
 
-        &.section-header {
-		padding: 0 0 40px;
-            .header-content {
-                .header-title,
-                .header-description {
-                    font-family: 'Source Sans Pro', arial, sans-serif;;
-                }
-            }
-        }
-
-    }
     &.section-footer {
         background-color: $fc;
     }
