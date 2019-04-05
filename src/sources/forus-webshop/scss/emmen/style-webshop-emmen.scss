@@ -95,6 +95,7 @@ body {
     height: 20.5vw;
     overflow:auto;
     display: table;
+	margin-top: 81px;
     .splash,
     .splash.splash-d {
         background-image: url(../img/splash-top-b.png);
@@ -119,6 +120,23 @@ body {
             border-color: transparent transparent #acb862 transparent;
             -webkit-transform:rotate(360deg);
             content: " ";
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .header-splash {
+        .splash,
+        .splash.splash-d {
+            background: none;
+    
+            &:after {
+                border: 0;
+            }
+        
+            &:before {
+                border: 0;
+            }
         }
     }
 }
