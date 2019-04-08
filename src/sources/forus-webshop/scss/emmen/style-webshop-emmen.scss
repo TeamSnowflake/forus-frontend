@@ -144,7 +144,7 @@ body {
 .section {
 
     &.section-header {
-        padding: 1vw 0 1vw;
+        padding: 0 0 1vw;
         position: relative;
         display: block;
         .header-content {
@@ -152,6 +152,9 @@ body {
             padding-bottom: 5.1vw;
             padding-left: 1vw;
             color: #fff;
+			float: none;
+			margin: 0 auto;
+			text-align: center;
 
             .header-title {
                 font: 700 2vw $bf;
