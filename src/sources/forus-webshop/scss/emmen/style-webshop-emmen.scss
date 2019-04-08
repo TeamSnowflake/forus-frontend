@@ -102,6 +102,16 @@ body {
         background-size: cover;
         height: 30.5vw;
         background-position: 50% 50%;
+		
+		&.splash-product{
+			background: none;
+			
+		&:before{
+			border-style: none;
+		}
+			
+		}
+		
         &.splash-d{
             background-image: url(../img/splash-top-d.png);
 			background-size: auto 90%;
@@ -134,7 +144,8 @@ body {
 @media screen and (max-width: 1000px) {
     .header-splash {
         .splash,
-        .splash.splash-d {
+        .splash.splash-d,
+		.splash.splash-product{
             background: none;
     
             &:after {
