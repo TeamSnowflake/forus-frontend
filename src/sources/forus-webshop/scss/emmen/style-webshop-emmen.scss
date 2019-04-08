@@ -103,8 +103,11 @@ body {
         height: 30.5vw;
         background-position: 50% 50%;
         &.splash-d{
-            background-position: 50% 65%;
-            height: 20.5vw;
+            background-image: url(../img/splash-top-d.png);
+			background-size: auto 90%;
+			background-repeat: no-repeat;
+			height: 1130px;
+			width: 100%;
         }
 
     
