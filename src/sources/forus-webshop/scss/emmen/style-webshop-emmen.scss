@@ -170,6 +170,7 @@ body {
             padding-bottom: 5.1vw;
             padding-left: 1vw;
             color: #fff;
+			text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 			float: none;
 			margin: 0 auto;
 			text-align: center;
@@ -248,6 +249,7 @@ body {
 		
         .navbar-logo {
 		padding: 10px 0;
+		border: none;
             img {
                 margin: -5px 0;
 				height: 48px;
