@@ -278,16 +278,19 @@ body {
 				margin: 0 auto;
 				.navbar-item-wrapper {
 					.navbar-item {
+					padding: 5px 10px;
+					color: #000000;
+					
 						&:hover {
-							color: $bc;
+							color: $color_primary;
 
 							&:before {
-								background: #3396a7;
+								background: $color_primary;
 							}
 						}
 
 						&.active {
-							color: $bc;
+							color: $color_primary;
 						}
 					}
 				}
