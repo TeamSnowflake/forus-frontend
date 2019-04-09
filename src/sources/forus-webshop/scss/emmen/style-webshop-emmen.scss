@@ -260,6 +260,13 @@ body {
 	width: 1200px;
 	box-shadow: none;
 	border-radius: 0px;
+	
+		.navbar-strech{
+			flex-grow: 1;
+			display: block;
+			float: left;
+		}
+		
         .navbar-list {
             .navbar-item-wrapper {
                 .navbar-item {
