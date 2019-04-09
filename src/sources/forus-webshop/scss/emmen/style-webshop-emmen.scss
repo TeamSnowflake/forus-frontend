@@ -261,13 +261,15 @@ body {
 	box-shadow: none;
 	border-radius: 0px;
 	
-		.navbar-strech{
+		.navbar-stretch{
 			flex-grow: 1;
 			display: block;
 			float: left;
 		}
 		
         .navbar-list {
+		background-color: ffffff;
+		width: 100%;
             .navbar-item-wrapper {
                 .navbar-item {
                     &:hover {
