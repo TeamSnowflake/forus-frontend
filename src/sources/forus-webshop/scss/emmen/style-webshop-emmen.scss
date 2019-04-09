@@ -271,23 +271,27 @@ body {
 	}
 	
 .navbar-list {
-		background-color: ffffff;
+		background-color: #ffffff;
 		width: 100%;
-            .navbar-item-wrapper {
-                .navbar-item {
-                    &:hover {
-                        color: $bc;
+			.navbar-item-container{
+				width: 1200px;
+				margin: 0 auto;
+				.navbar-item-wrapper {
+					.navbar-item {
+						&:hover {
+							color: $bc;
 
-                        &:before {
-                            background: #3396a7;
-                        }
-                    }
+							&:before {
+								background: #3396a7;
+							}
+						}
 
-                    &.active {
-                        color: $bc;
-                    }
-                }
-            }
+						&.active {
+							color: $bc;
+						}
+					}
+				}
+			}
         }
 
         .block-auth {
@@ -296,8 +300,12 @@ body {
             .auth-in {
                 .auth-user {
                     .auth-user-email {
-                        color: $bc;
+                        color: #ffffff;
                     }
+					
+					.auth-user-type{
+					color: ffffff;
+					}
 
                     .auth-user-menu {
                         .auth-user-menu-item {
