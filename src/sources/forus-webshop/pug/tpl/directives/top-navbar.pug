@@ -64,6 +64,7 @@
 			nav.navbar-item-wrapper
 				.navbar-item(translate='topnavbar.buttons.logout', ng-click='$root.signOut()')
 		// Menu
+		.navbar-item-container
 		nav.navbar-item-wrapper(ng-if='$root.appConfigs.features.funds.list', ng-click='mobileMenu = false')
 			a.navbar-item(ui-sref='funds', ng-bind="'topnavbar.items.funds' | translate", ui-sref-active='active')
 		nav.navbar-item-wrapper(ng-if='$root.appConfigs.flags.productsMenu || $root.auth_user', ng-click='mobileMenu = false')
