@@ -114,11 +114,11 @@ body {
 		
         &.splash-d{
             background-image: url(../img/splash-top-d.png);
-			background-size: auto 90%;
+			background-size: auto 60%;
 			background-repeat: no-repeat;
-			height: 1130px;
+			height: 1000px;
 			width: 100%;
-			background-position: 100% 0%;
+			background-position: 100% 15%;
 			
 		&:before{
 			border-style: none;
@@ -163,9 +163,13 @@ body {
     .block-navbar {
         .navbar-list{
 			.navbar-item-wrapper{
-				.navbar-item:hover,
-				.navbar-item:active{
-					border-left-color: $color_primary;
+				.navbar-item{
+						
+						&:hover,
+                        &.active {
+                            border-left-color: $color_primary;
+
+						}
 					}
 				}
             }
@@ -321,7 +325,7 @@ body {
                     }
 					
 					.auth-user-type{
-					color: ffffff;
+					color: #ffffff;
 					}
 
                     .auth-user-menu {
