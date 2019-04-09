@@ -159,6 +159,20 @@ body {
     }
 }
 
+@media screen and (max-width: 1000px) {
+    .block-navbar {
+        .navbar-list{
+			.navbar-item-wrapper{
+				.navbar-item:hover,
+				.navbar-item:active{
+					border-left-color: $color_primary;
+					}
+				}
+            }
+        }
+    }
+
+
 .section {
 
     &.section-header {
