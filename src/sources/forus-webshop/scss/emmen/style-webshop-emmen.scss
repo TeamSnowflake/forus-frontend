@@ -208,6 +208,7 @@ body {
             .header-content {
                 padding: 50px 25px 0;
                 color: $tc;
+				min-height: 0px;
 
                 .header-title {
                     font-size: 24px;
@@ -302,7 +303,7 @@ body {
 					.navbar-item {
 					padding: 5px 10px;
 					color: #000000;
-					font: 900 17px/30px "Arial", sans-serif;
+					font: bold 17px/30px "Arial", sans-serif;
 					
 						&:hover {
 							color: $color_primary;
