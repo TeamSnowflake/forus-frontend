@@ -167,7 +167,7 @@ body {
 						
 						&:hover,
                         &.active {
-                            border-left-color: $color_primary;
+                            border-left-color: #D82C7C;
 
 						}
 					}
@@ -240,11 +240,11 @@ body {
 .block {
     &.block-breadcrumbs {
         .breadcrumb-item {
-            color: #017f96;
+            color: #b02163;
 
             &:not(.active) {
                 &:hover {
-                    color: darken($color: #017f96, $amount: 10);
+                    color: darken($color: #b02163, $amount: 10);
                 }
             }
         }
@@ -258,6 +258,7 @@ body {
 		border-top: 10px solid #b02163;
 		
 		.navbar-mobile-menu {
+		cursor: pointer;
 		em{
 			padding-top: 5px;
 			color: white;
