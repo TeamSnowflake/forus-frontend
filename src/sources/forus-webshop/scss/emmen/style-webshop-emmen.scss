@@ -263,18 +263,21 @@ body {
 		
 @media screen and (max-width: 1000px) {
 	border-top: none;
-        .navbar-list{
-			.navbar-item-wrapper{
-				.navbar-item{
+	.navbar-list{
+			.navbar-item-container{
+				width: 100%;
+				.navbar-item-wrapper{
+					.navbar-item{
 						
-						&:hover,
-                        &.active {
-                            border-left-color: #D82C7C;
+							&:hover,
+							&.active {
+								border-left-color: #D82C7C;
 
+							}
 						}
 					}
 				}
-            }
+			}
         }
     
 	
@@ -299,6 +302,7 @@ body {
 			.navbar-item-container{
 				width: 1200px;
 				margin: 0 auto;
+				
 				.navbar-item-wrapper {
 					.navbar-item {
 					padding: 5px 10px;
