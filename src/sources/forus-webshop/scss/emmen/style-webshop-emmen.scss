@@ -310,6 +310,9 @@ body {
 
 						&.active {
 							color: $color_primary;
+							
+							&:before {
+							background: $color_primary;
 						}
 					}
 				}
