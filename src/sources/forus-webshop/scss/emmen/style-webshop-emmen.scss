@@ -95,7 +95,7 @@ body {
     height: 20.5vw;
     overflow:auto;
     display: table;
-	margin-top: 50px;
+	margin-top: 10px;
     .splash{
         background-image: url(../img/splash-top-b.png);
         display: table-row;
@@ -191,7 +191,6 @@ body {
 			float: none;
 			margin: 0 auto;
 			text-align: center;
-			min-height: 500px;
 
             .header-title {
                 font: 700 2vw $bf;
