@@ -291,6 +291,7 @@ body {
 	}
 	
 .navbar-list {
+		height: 48px;
 		background-color: #ffffff;
 		width: 100%;
 			.navbar-item-container{
@@ -300,6 +301,7 @@ body {
 					.navbar-item {
 					padding: 5px 10px;
 					color: #000000;
+					font: 900 17px/30px "Arial", sans-serif !import;
 					
 						&:hover {
 							color: $color_primary;
