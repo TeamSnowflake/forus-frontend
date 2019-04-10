@@ -159,22 +159,7 @@ body {
     }
 }
 
-@media screen and (max-width: 1000px) {
-    .block-navbar {
-        .navbar-list{
-			.navbar-item-wrapper{
-				.navbar-item{
-						
-						&:hover,
-                        &.active {
-                            border-left-color: #D82C7C;
 
-						}
-					}
-				}
-            }
-        }
-    }
 
 
 .section {
@@ -274,7 +259,24 @@ body {
 				height: 48px;
             }
         }
+		
+@media screen and (max-width: 1000px) {
+	border-top: none;
+        .navbar-list{
+			.navbar-item-wrapper{
+				.navbar-item{
+						
+						&:hover,
+                        &.active {
+                            border-left-color: #D82C7C;
 
+						}
+					}
+				}
+            }
+        }
+    
+	
 .navbar-inner{
 	background-color: transparent;
 	width: 1200px;
